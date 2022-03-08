@@ -1,5 +1,12 @@
 .App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
 }
 
 .App-logo {
@@ -28,7 +35,12 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.movie {
+  width: 30vw;
+  border: solid 1px #ccc;
+}
+
+. @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
